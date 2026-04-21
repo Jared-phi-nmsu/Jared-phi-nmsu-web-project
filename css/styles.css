@@ -1,0 +1,103 @@
+nav, h1.mainPage {
+    height: 40px;
+    background-image: url(../html/pictures/grass.png);
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+    padding-inline: 20px;
+}
+
+nav.mainPage {
+    font-size: 12pt;
+}
+
+body {
+    background-image: url(../html/pictures/dirt.png);
+    padding-inline: 10px;
+}
+
+main.mainPage {
+    background-color: beige;
+    padding-inline: 20px;
+}
+
+main {
+    background-color: beige;
+    padding-inline: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+figcaption, nav {
+    font-size: 18pt;
+}
+
+h1 {
+    font-size: 26pt;
+}
+
+h3{
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border: 2px dashed slategrey
+}
+
+table {
+    margin: auto;
+    border: 2px dashed slategrey
+}
+
+th {
+  background-image: url(../html/pictures/grass.png);
+  color: white;
+}
+
+img{
+    width: 60%;
+}
+
+li:hover {
+    animation: throb 1.6s ease-in-out infinite;
+}
+
+.marquee-container {
+  white-space: nowrap; 
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 8s linear infinite;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+.marquee-text-hover {
+    display: none;
+}
+
+.marquee-content:hover .marquee-text-hover { 
+    display: inline; 
+}
+
+@keyframes throb {
+  0%   {transform: scale(1)}  
+  50%  {transform: scale(1.02); font-size: larger;}
+  100% {transform: scale(1);}
+}
+
+@keyframes marquee {
+  from { transform: translateX(110%); } 
+  to { transform: translateX(-10%); }
+}
+
+
