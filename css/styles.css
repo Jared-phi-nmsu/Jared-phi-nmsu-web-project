@@ -1,6 +1,6 @@
 nav, h1.mainPage {
     height: 40px;
-    background-image: url(../html/pictures/grass.png);
+    background-image: url(../images/grass.png);
     align-items: center;
     display: flex;
     justify-content: space-between; 
@@ -12,7 +12,7 @@ nav.mainPage {
 }
 
 body {
-    background-image: url(../html/pictures/dirt.png);
+    background-image: url(../images/dirt.png);
     padding-inline: 10px;
 }
 
