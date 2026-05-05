@@ -77,19 +77,7 @@ h3{
     text-align: center;
 }
 
-/* .button-container {
-    padding: auto;
-    position: relative;
-    bottom: 30px;
-    right: 42px;
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-    gap: 5px;
-} */
-
 .button-container-feedback{
-    padding: auto;
     position: relative;
     top: 14px;
     bottom: 14px;
