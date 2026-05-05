@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <meta name="Author" content="Jared Phillips">
+    <meta name="Date" content="05-01-2026">
+    <meta name="Description" content="This is my simple HTML webpage. Ive used this to demonstrate all logic gates represented in Minecraft.">
+    <head>
+        <link rel="stylesheet" href="../css/styles4.css">
+        <title>Feedback</title>
+    </head>
+    <body class="mainBody">
+        <h1 class="mainPage">Feedback</h1>
+        <nav class="mainPage">
+            <a href="project4.html">Back</a>
+        </nav>
+        <main class="mainPage">
+            <form name="feedbackForm" action="" method="get">
+                <br>
+                <textarea class="feedbackTextAreaClass" name="inputValue" maxlength="10240" placeholder="Please provide some feedback for the creator of the website. ( Limit 10240 Characters )"></textarea>
+                <div class="button-container-feedback">
+                    <input type="button" name="testButton" value="Test" onClick="testResults(this.form)">
+                    <input type="button" name="resetButton" value="Reset" onClick="resetResults(this.form)">
+                    <input type="button" name="submitButton" value="Submit" onClick="submitResults(this.form)"> 
+                </div>
+            </form>
+            <div class="marquee-container-feedback">
+                <div class="marquee-content">
+                    <span class="marquee-text">フィードバックありがとうございます！</span>
+                    <span class="marquee-text-hover"> Thanks for the feedback! <span>
+                </div>
+            </div>
+        <div class="button-container-feedback-modes">
+            <button id="modeInvertButton" class="modeInvertButtonClass">Invert Mode</button>            
+            <button id="modeButton" class="modeButtonClass">Dark Mode</button>
+            <button id="modeNetherButton" class="modeNetherButtonClass">Nether Mode</button>
+            <button id="modeEndButton" class="modeEndButtonClass">End Mode</button>
+            <script src="../javascript/script.js"></script>
+        </div>
+        </main>
+    </body>
+</html>
