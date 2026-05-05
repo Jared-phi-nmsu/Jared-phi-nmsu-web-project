@@ -75,6 +75,8 @@ function submitResults(form) {
     alert("Feedback submitted successfully!");
 
     console.log(inputValue);
+
+    resetResults(form);
 }
 
 
