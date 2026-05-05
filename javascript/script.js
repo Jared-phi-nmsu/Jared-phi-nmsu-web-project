@@ -60,7 +60,7 @@ function testResults(form) {
 }
 
 function resetResults(form) {
-    return form.inputValue.value = "";
+    form.reset();
 }
 
 
@@ -75,8 +75,8 @@ function submitResults(form) {
     alert("Feedback submitted successfully!");
 
     console.log(inputValue);
-
-    resetResults(form);
+    
+    resetResults(form)
 }
 
 
